@@ -1,4 +1,4 @@
-# mkdocs-docker
+# [mkdocs-docker](https://github.com/meuhlang/mkdocs-docker)
 
 ![License](https://img.shields.io/github/license/meuhlang/mkdocs-docker)
 ![GitHub tag (latest SemVer pre-release)](https://img.shields.io/github/v/tag/meuhlang/mkdocs-docker?include_prereleases)
