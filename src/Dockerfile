@@ -15,6 +15,9 @@
 
 FROM python:3.10.0-slim-bullseye
 
+LABEL org.label-schema.description="Another dockerized version of mkdocs" \
+        org.label-schema.schema-version="1.0"
+
 RUN pip install \
         --disable-pip-version-check \
         --no-cache-dir \
