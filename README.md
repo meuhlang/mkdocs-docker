@@ -1,5 +1,10 @@
 # mkdocs-docker
 
+![License](https://img.shields.io/github/license/meuhlang/mkdocs-docker)
+![GitHub tag (latest SemVer pre-release)](https://img.shields.io/github/v/tag/meuhlang/mkdocs-docker?include_prereleases)
+![GitHub branch checks state](https://img.shields.io/github/checks-status/meuhlang/mkdocs-docker/main)
+![Docker Pulls](https://img.shields.io/docker/pulls/lvjp/mkdocs)
+
 A simple docker wrapper for [mkdocs](https://www.mkdocs.org/).
 
 Thoses extra features are installed :
