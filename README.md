@@ -6,6 +6,19 @@ Thoses extra features are installed :
 
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
+## Versionning
+
+Since [mkdocs](https://www.mkdocs.org/about/release-notes/) seams to use [semantic versioning](https://semver.org/),
+we will use the format `v<mkdoc version>-<our version>`.
+
+For example :
+
+| Mkdocs version | Our release version | Final version |
+|----------------|---------------------|---------------|
+| 1.2.2          | 0                   | v1.2.2-0      |
+| 1.2.2          | 1                   | v1.2.2-1      |
+| 1.2.3          | 0                   | v1.2.3-1      |
+
 ## License
 
 Full license can be found in the [LICENSE](LICENSE) file.
