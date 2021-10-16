@@ -24,6 +24,6 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Publish to Docker hub
         if: startsWith(github.ref, 'refs/tags/v')
-        run:
+        run: |
           docker tag "local/${GITHUB_REPOSITORY}" "lvjp/mkdocs:${GITHUB_REF/refs\/tags\//}"
           docker push "lvjp/mkdocs:${GITHUB_REF/refs\/tags\//}"
