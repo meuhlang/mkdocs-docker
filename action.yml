@@ -13,4 +13,4 @@ inputs:
 
 runs:
   using: 'docker'
-  image: src/Dockerfile
+  image: docker://lvjp/mkdocs:v1.2.3-3
