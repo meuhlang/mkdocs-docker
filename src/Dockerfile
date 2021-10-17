@@ -24,4 +24,7 @@ RUN pip install \
         mkdocs-material==7.3.3 \
         mkdocs==1.2.3
 
+COPY entrypoint.sh /
+
+ENTRYPOINT [ "/entrypoint.sh" ]
 CMD ["/usr/local/bin/mkdocs"]

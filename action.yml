@@ -1,0 +1,16 @@
+name: 'mkdocs'
+description: 'Generate a website with mkdocs'
+
+inputs:
+  strict:
+    description: 'Set to true to enforce the strict mode'
+    required: false
+    default: 'false'
+  configfile:
+    description: 'Provide a specific MkDocs config'
+    required: false
+    default: 'mkdocs.yml'
+
+runs:
+  using: 'docker'
+  image: src/Dockerfile
