@@ -13,7 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-FROM python:3.10.1-slim-bullseye
+FROM python:3.11.0a4-slim-bullseye
 
 LABEL org.label-schema.description="Another dockerized version of mkdocs" \
         org.label-schema.schema-version="1.0"
