@@ -7,7 +7,7 @@ jobs:
     name: Lint Code Base
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2.4.0
+      - uses: actions/checkout@v3
       - name: Lint Code Base
         uses: github/super-linter@v4.9.0
         env:
